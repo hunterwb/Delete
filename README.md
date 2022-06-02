@@ -38,7 +38,7 @@ public final class Example {
 }
 ```
 ```console
-$ javac Example.java -processsorpath delete.jar -Xplugin:Delete
+$ javac Example.java -processsorpath delete.jar
 $ javap -p -c -constants Example.class
 Compiled from "Example.java"
 public final class Example {
